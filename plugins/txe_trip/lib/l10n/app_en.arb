@@ -1,0 +1,22 @@
+{
+  "chuaXacDinh": "Undefined",
+  "chiTietChuyen": "Trip details",
+  "soTuyen": "Line number",
+  "tenTuyen": "Line name",
+  "tu": "From",
+  "den": "Arrive",
+  "donViKhaiThac": "Mining unit",
+  "bienSo": "License plates",
+  "ngayXuatPhat": "Departure date",
+  "gioXuatPhat": "Departure time",
+  "banVe" : "Ticket Sale",
+  "veDaBan": "Ticket Sold",
+  "gio": ":",
+  "kiemTra" : "Check",
+  "khongCoChuyenNao": "There are no trains",
+  "soDoGhe": "Seat Diagram",
+  "ketThucBanVe" : "End of ticket sales for a successful trip",
+  "thoiGianKhoiHanh": "Departure time",
+  "hangTauXe": "Car carrier",
+  "zzz": ""
+}

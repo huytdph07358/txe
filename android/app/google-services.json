@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "837917430699",
+    "project_id": "vetauxe-5f8aa",
+    "storage_bucket": "vetauxe-5f8aa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:837917430699:android:c8a65bc8e2c0f689fbb8ee",
+        "android_client_info": {
+          "package_name": "com.vietsens.txe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "837917430699-2612qbaashvk6214p32ir9b9obluc5v2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJoLDJnkvrQ1qWZhlI-CWj-D06bzty9hg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "837917430699-2612qbaashvk6214p32ir9b9obluc5v2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

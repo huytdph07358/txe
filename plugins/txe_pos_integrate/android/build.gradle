@@ -1,0 +1,87 @@
+group 'com.vietsens.txe.txe_pos_integrate'
+version '1.0'
+
+buildscript {
+    repositories {
+        google()
+        jcenter()
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.2.2'
+    }
+}
+
+rootProject.allprojects {
+    repositories {
+        google()
+        jcenter()
+        mavenCentral()
+        flatDir {
+            dirs rootProject.file('repo')
+        }
+    }
+}
+
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 33
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    defaultConfig {
+        minSdkVersion 24
+//        ndk {
+//            abiFilters "armeabi", "armeabi-v7a", "x86", "mips"
+//        }
+    }
+    externalNativeBuild {
+        cmake {
+            path "CMakeLists.txt"
+        }
+    }
+
+    signingConfigs {
+        debug{
+            v1SigningEnabled  true
+            v2SigningEnabled  true
+        }
+        release{
+            v1SigningEnabled  true
+            v2SigningEnabled  true
+        }
+    }
+
+    buildTypes {
+        release {
+            proguardFiles(
+                    getDefaultProguardFile("proguard-android-optimize.txt"),
+                    "proguard-rules.pro"
+            )
+        }
+    }
+    ndkVersion '21.4.7075529'
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.core:core-ktx:1.7.0'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.8.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'com.sunmi:printerlibrary:1.0.18'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    implementation (name: 'atom-pos', ext: 'aar')
+//    implementation (name: 'AppSdkAidl_buildBy_20220217', ext: 'jar')
+//    implementation (name: 'vanstoneSdkClient-noemv_20220114', ext: 'jar')
+//    implementation (name: 'libA90JavahCore', ext: 'so')
+    implementation 'com.google.zxing:core:3.5.0'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+}

@@ -1,0 +1,22 @@
+{
+  "chuaXacDinh": "Chưa xác định",
+  "chiTietChuyen": "Chi tiết chuyến xe",
+  "soTuyen": "Số tuyến",
+  "tenTuyen": "Tên tuyến",
+  "tu": "Từ",
+  "den": "Đến",
+  "donViKhaiThac": "Đơn vị khai thác",
+  "bienSo": "Biển số ",
+  "ngayXuatPhat": "Ngày xuất phát",
+  "gioXuatPhat": "Giờ xuất phát",
+  "banVe" : "Bán vé",
+  "veDaBan": "Vé đã bán",
+  "gio": ":",
+  "kiemTra" : "Kiểm tra",
+  "khongCoChuyenNao": "Không có chuyến nào",
+  "soDoGhe": "Sơ đồ ghế",
+  "ketThucBanVe" : "Kết thúc bán vé cho chuyến thành công",
+  "thoiGianKhoiHanh": "Thời gian khởi hành",
+  "hangTauXe": "Hãng tàu xe",
+  "zzz": ""
+}

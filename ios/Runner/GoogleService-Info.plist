@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>837917430699-1ksj6rm2fdu8vmhj3397ld9f3kqtah7c.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.837917430699-1ksj6rm2fdu8vmhj3397ld9f3kqtah7c</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC-al5W0LPCo7zUYkkGrc8Bu9i5RpdeqwY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>837917430699</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.vietsens.txe</string>
+	<key>PROJECT_ID</key>
+	<string>vetauxe-5f8aa</string>
+	<key>STORAGE_BUCKET</key>
+	<string>vetauxe-5f8aa.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:837917430699:ios:82f4ef376d42ebb7fbb8ee</string>
+</dict>
+</plist>
